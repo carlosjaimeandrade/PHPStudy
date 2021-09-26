@@ -131,6 +131,13 @@
                         <li><a href="exercicio.php?dir=sessao&file=gerenciando_sessao">Gerenciando sessao</a></li>
                     </ul>
                 </div>
+                <div class="modulo verde">
+                    <h3>Api</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=api&file=datas">Date</a></li>
+                        <li><a href="exercicio.php?dir=api&file=datas2">Classe date time()</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
         
