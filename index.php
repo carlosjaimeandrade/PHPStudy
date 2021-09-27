@@ -129,6 +129,7 @@
                     <ul>
                         <li><a href="exercicio.php?dir=sessao&file=basico">Sessão e cookie</a></li>
                         <li><a href="exercicio.php?dir=sessao&file=gerenciando_sessao">Gerenciando sessao</a></li>
+                        <li><a href="exercicio.php?dir=sessao&file=cookie">Cookie</a></li>
                     </ul>
                 </div>
                 <div class="modulo verde">
@@ -136,6 +137,7 @@
                     <ul>
                         <li><a href="exercicio.php?dir=api&file=datas">Date</a></li>
                         <li><a href="exercicio.php?dir=api&file=datas2">Classe date time()</a></li>
+                        <li><a href="exercicio.php?dir=api&file=escrevendoArquivos">Escrevendo arquivos</a></li>
                     </ul>
                 </div>
             </nav>
