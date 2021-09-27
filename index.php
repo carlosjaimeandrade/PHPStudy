@@ -140,6 +140,12 @@
                         <li><a href="exercicio.php?dir=api&file=escrevendoArquivos">Escrevendo arquivos</a></li>
                     </ul>
                 </div>
+                <div class="modulo verde">
+                    <h3>Api</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=anotacao&file=email">Email pelo php</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
         
