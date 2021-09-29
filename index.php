@@ -138,10 +138,11 @@
                         <li><a href="exercicio.php?dir=api&file=datas">Date</a></li>
                         <li><a href="exercicio.php?dir=api&file=datas2">Classe date time()</a></li>
                         <li><a href="exercicio.php?dir=api&file=escrevendoArquivos">Escrevendo arquivos</a></li>
+                        <li><a href="exercicio.php?dir=api&file=lendoarquivo">Lendo arquivos</a></li>
                     </ul>
                 </div>
                 <div class="modulo verde">
-                    <h3>Api</h3>
+                    <h3>Anotação</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=anotacao&file=email">Email pelo php</a></li>
                     </ul>
