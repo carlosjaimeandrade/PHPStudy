@@ -139,6 +139,7 @@
                         <li><a href="exercicio.php?dir=api&file=datas2">Classe date time()</a></li>
                         <li><a href="exercicio.php?dir=api&file=escrevendoArquivos">Escrevendo arquivos</a></li>
                         <li><a href="exercicio.php?dir=api&file=lendoarquivo">Lendo arquivos</a></li>
+                        <li><a href="exercicio.php?dir=api&file=upload">Upload de arquivos</a></li>
                     </ul>
                 </div>
                 <div class="modulo verde">
