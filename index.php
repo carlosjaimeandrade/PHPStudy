@@ -144,6 +144,12 @@
                     </ul>
                 </div>
                 <div class="modulo verde">
+                    <h3>Formulario</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=formulario&file=basico">Formulario</a></li>
+                    </ul>
+                </div>
+                <div class="modulo verde">
                     <h3>Anotação</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=anotacao&file=email">Email pelo php</a></li>
