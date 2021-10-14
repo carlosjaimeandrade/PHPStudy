@@ -153,6 +153,7 @@
                     <h3>Anotação</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=anotacao&file=email">Email pelo php</a></li>
+                        <li><a href="exercicio.php?dir=anotacao&file=webscraping">Copiar dados</a></li>
                     </ul>
                 </div>
             </nav>
