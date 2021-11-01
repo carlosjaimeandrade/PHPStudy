@@ -18,7 +18,7 @@ function sendImgPerfil(event) {
     imgPreview.insertAdjacentElement('beforeend', img)
 
     //agora vamos enviar para o back tratar o  envio para o servidor, usaremos pra isso o AJAX, no caso sem o JQUERY, mas para ficar mais facil podemos usar o JQUERY
-    // mandamos para o index.php a requisição via post com os parametros URL com a url temporaria que criamos
+    // mandamos para o moveServerApi.php a requisição via post com os parametros URL com a url temporaria que criamos
     axios.post('moveServerApi.php', {
         url: url
     }).then(resp => exibirResultado(resp.data))
