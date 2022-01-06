@@ -31,6 +31,10 @@ if (!empty($_FILES['arquivo']['tmp_name'])) {
     $arquivo->load($arq_temp);
 
     $linhas = $arquivo->getElementsByTagName("Row");
+    // caso a planilha esteja em branco
+    if($linhas->count() == 0){
+        echo "Arquivo fora do padrão1";
+    }
 
     $contRow = 1;
     $queryValues = "";
@@ -42,7 +46,9 @@ if (!empty($_FILES['arquivo']['tmp_name'])) {
            
             for ($i = 0; $i <= $totalCol; $i++) {
                 $coluna = $linha->getElementsByTagName("Data");
+                //caso a planilha não tenha o mesmo tamanho de coluna que desejo
                 if($coluna->count() != $totalCol+1){
+                    echo "Arquivo fora do padrão";
                     exit;
                 }
                 $coluna = $coluna->item($i);
