@@ -24,7 +24,7 @@
 $totalCol = 4;
 $tabela = "tabelateste";
 
-if (!empty($_FILES['arquivo'])) {
+if (!empty($_FILES['arquivo']['tmp_name'])) {
 
     $arq_temp = $_FILES['arquivo']['tmp_name'];
     $arquivo = new DomDocument();
@@ -39,8 +39,12 @@ if (!empty($_FILES['arquivo'])) {
     foreach ($linhas as $linha) {
         
         if ($contRow != 1) {
+           
             for ($i = 0; $i <= $totalCol; $i++) {
                 $coluna = $linha->getElementsByTagName("Data");
+                if($coluna->count() != $totalCol+1){
+                    exit;
+                }
                 $coluna = $coluna->item($i);
                 $coluna = $coluna->nodeValue;
                 $queryValues = "'$coluna'" . "," . $queryValues;
