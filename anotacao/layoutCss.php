@@ -13,71 +13,89 @@
 
     </div>
 
-    <div class="container-pai">
-        <div class="container">
-            <div class='imagem'>
-                <img class="imagemedit" src="filme2.jpg" alt="">
-                <div class="front-color"></div>
-                <div class="action"><button>ASSISTA AGORA</button></div>
-            </div>
 
-            <div class='imagem'>
-                <img class="imagemedit" src="transferir.jpg" alt="">
-                <div class="front-color"></div>
-                <div class="action"><button>ASSISTA AGORA</button></div>
-            </div>
+    <div class="container">
 
-            <div class='imagem'>
-                <img class="imagemedit" src="transferir.jpg" alt="">
-                <div class="front-color"></div>
-                <div class="action"><button>ASSISTA AGORA</button></div>
-            </div>
-
-            <div class='imagem'>
-                <img class="imagemedit" src="transferir.jpg" alt="">
-                <div class="front-color"></div>
-                <div class="action"><button>ASSISTA AGORA</button></div>
-            </div>
-
-            <div class='imagem'>
-                <img class="imagemedit" src="transferir.jpg" alt="">
-                <div class="front-color"></div>
-                <div class="action"><button>ASSISTA AGORA</button></div>
-            </div>
-
-            <div class='imagem'>
-                <img class="imagemedit" src="transferir.jpg" alt="">
-                <div class="front-color"></div>
-                <div class="action"><button>ASSISTA AGORA</button></div>
-            </div>
+        <div class='imagem'>
+            <img class="imagemedit" src="transferir.jpg" alt="">
+            <div class="front-color"></div>
+            <div class="action"><button>ASSISTA AGORA</button></div>
+        </div>
+        <div class='imagem'>
+            <img class="imagemedit" src="transferir.jpg" alt="">
+            <div class="front-color"></div>
+            <div class="action"><button>ASSISTA AGORA</button></div>
+        </div>
+        <div class='imagem'>
+            <img class="imagemedit" src="transferir.jpg" alt="">
+            <div class="front-color"></div>
+            <div class="action"><button>ASSISTA AGORA</button></div>
+        </div>
+        <div class='imagem'>
+            <img class="imagemedit" src="transferir.jpg" alt="">
+            <div class="front-color"></div>
+            <div class="action"><button>ASSISTA AGORA</button></div>
+        </div>
+        <div class='imagem'>
+            <img class="imagemedit" src="transferir.jpg" alt="">
+            <div class="front-color"></div>
+            <div class="action"><button>ASSISTA AGORA</button></div>
+        </div>
+        <div class='imagem'>
+            <img class="imagemedit" src="transferir.jpg" alt="">
+            <div class="front-color"></div>
+            <div class="action"><button>ASSISTA AGORA</button></div>
+        </div>
+        <div class='imagem'>
+            <img class="imagemedit" src="transferir.jpg" alt="">
+            <div class="front-color"></div>
+            <div class="action"><button>ASSISTA AGORA</button></div>
+        </div>
+        <div class='imagem'>
+            <img class="imagemedit" src="transferir.jpg" alt="">
+            <div class="front-color"></div>
+            <div class="action"><button>ASSISTA AGORA</button></div>
+        </div>
+        <div class='imagem'>
+            <img class="imagemedit" src="transferir.jpg" alt="">
+            <div class="front-color"></div>
+            <div class="action"><button>ASSISTA AGORA</button></div>
+        </div>
+        <div class='imagem'>
+            <img class="imagemedit" src="transferir.jpg" alt="">
+            <div class="front-color"></div>
+            <div class="action"><button>ASSISTA AGORA</button></div>
+        </div>
+        <div class='imagem'>
+            <img class="imagemedit" src="transferir.jpg" alt="">
+            <div class="front-color"></div>
+            <div class="action"><button>ASSISTA AGORA</button></div>
+        </div>
+        <div class='imagem'>
+            <img class="imagemedit" src="transferir.jpg" alt="">
+            <div class="front-color"></div>
+            <div class="action"><button>ASSISTA AGORA</button></div>
         </div>
 
-        
+
     </div>
 
-
-
-        
-    </div>
 </body>
 
 </html>
 
 <style>
-    .container-pai{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-    }
     body {
         background-color: black;
         margin: 0px;
     }
 
     .container {
-        display: flex;
-        flex-wrap: wrap;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 180px);
+        grid-gap: 20px;
+
         justify-content: center;
 
     }
@@ -95,7 +113,7 @@
         height: 250px;
 
         position: relative;
-        margin: 10px;
+
         border-radius: 4px;
         box-shadow: 0px 1px 8px 0px black;
         overflow: hidden;
@@ -108,7 +126,6 @@
         background-image: url(wall.jpg);
         background-repeat: no-repeat;
         background-position: center;
-
         position: relative;
     }
 

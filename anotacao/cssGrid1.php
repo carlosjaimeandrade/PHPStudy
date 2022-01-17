@@ -28,8 +28,8 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, 350px);
-  justify-content: center;
-
+  justify-content: space-around;
+  grid-gap: 10px 20px;
   background-color: #2196F3;
  
 }
