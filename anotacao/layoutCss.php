@@ -13,7 +13,6 @@
 
     </div>
 
-
     <div class="container">
 
         <div class='imagem'>
@@ -77,7 +76,6 @@
             <div class="action"><button>ASSISTA AGORA</button></div>
         </div>
 
-
     </div>
 
 </body>
@@ -91,11 +89,10 @@
     }
 
     .container {
-
         display: grid;
         grid-template-columns: repeat(auto-fill, 180px);
         grid-gap: 20px;
-
+        margin: 10px;
         justify-content: center;
 
     }
